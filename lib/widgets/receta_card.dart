@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../models/receta.dart';
 
 class RecetaCard extends StatelessWidget {
@@ -45,6 +46,7 @@ class RecetaCard extends StatelessWidget {
                       style: const TextStyle(
                         fontSize: 14.5,
                         fontWeight: FontWeight.bold,
+                        color: Color(0xFFC2185B),
                       ),
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
@@ -54,7 +56,7 @@ class RecetaCard extends StatelessWidget {
                       '${receta.cocina} · ${receta.dificultad} · ${receta.tiempoTotal} min',
                       style: TextStyle(
                         fontSize: 11.5,
-                        color: Colors.grey.shade600,
+                        color: Colors.pink.shade300,
                       ),
                     ),
                   ],
